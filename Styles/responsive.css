@@ -1,0 +1,303 @@
+:root {
+    --primary-color: #3498db;
+    --banner-color: rgba(241, 196, 15, 0.85);
+    --overlay-color: rgba(24, 39, 51, 0.85);
+    --feed-back: rgba(223, 230, 233, 1);
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapper_01 {
+        font-size: 1.2rem;
+        width: 100%;
+        padding: 0.6rem;
+    }
+    .rating {
+        margin-left: 8rem;
+    }
+    .section01 {
+        align-items: left;
+        margin-left: -4rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .section02 {
+        margin-left: -2rem;
+    }
+    .section03 {
+        margin-left: 2rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .alternativeContainer {
+        display: contents;
+    }
+    /* First navbar section*/
+    .wrapper_01 {
+        padding: 0;
+        margin: 0;
+    }
+    .section01 {
+        flex-direction: column;
+        padding: 1rem;
+        margin: 0;
+        border-right: 1px solid var(--feed-back);
+    }
+    .section01 p {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    .rating {
+        display: none;
+    }
+    .review {
+        display: none;
+    }
+    /* Second navbar section*/
+    .wrapper_02 {
+        display: none;
+    }
+    .section02 {
+        flex-direction: column;
+        padding: 1rem;
+        margin: 0;
+        border-right: 1px solid var(--feed-back);
+    }
+    .section02 p {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    /* Third navbar section*/
+    .wrapper_03 {
+        display: none;
+    }
+    .section03 {
+        flex-direction: column;
+        padding: 1rem;
+        margin: 0;
+    }
+    .section03 p {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    /* Banner section */
+    .showcase {
+        width: 100vw;
+        height: 100%;
+    }
+    .part01 {
+        margin-top: -2rem;
+        margin-left: -2rem;
+        margin-right: 2rem;
+        padding-right: 2.5rem;
+    }
+    .mainHeading {
+        display: none;
+    }
+    .mainHeading01 {
+        display: contents;
+    }
+    .mainHeading02 {
+        display: contents;
+    }
+    .mainHeading03 {
+        display: contents;
+    }
+    .part01 h1 {
+        font-size: 3rem;
+    }
+    .part01 .para {
+        display: none;
+    }
+    .part01 .checked {
+        display: none;
+    }
+    .part01 .feedback {
+        display: none;
+    }
+    .menu-wrap {
+        margin-left: 14rem;
+    }
+    /* form section */
+    .part02 {
+        position: relative;
+        margin-left: -34.5rem;
+        margin-top: 14rem;
+        width: 35rem;
+        height: 50rem;
+        padding-bottom: -8rem;
+        margin-bottom: 8rem;
+    }
+    .fisrtHeading h1 {
+        font-size: 1.8rem;
+    }
+    .fisrtHeading p {
+        font-size: 1.4rem;
+    }
+    .lastHeading {
+        display: none;
+    }
+    .inputSection {
+        font-size: 1.4rem;
+    }
+    .inputSection {
+        margin-bottom: 1rem;
+    }
+    .inputSection .input1 {
+        justify-content: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 0.8rem;
+        width: 14rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .inputSection .input2 {
+        justify-content: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 0.8rem;
+        margin-left: 2rem;
+        width: 12rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .onOffSwitch {
+        display: none;
+    }
+    .onOffSwitch01 {
+        color: #000000;
+        display: inline-block;
+    }
+    .toggleLevel {
+        margin-top: 1rem;
+        font-size: 1.4rem;
+    }
+    .onOffSwitch01 .para_01 {
+        font-size: 1.4rem;
+    }
+    .onOffSwitch01 .para_02 {
+        font-size: 1.4rem;
+    }
+    .infoSection2 p {
+        font-size: 1.2rem;
+    }
+    .infoSection2 a {
+        font-size: 1.2rem;
+    }
+    .inputSection01 {
+        margin-top: 1.5rem;
+        font-size: 1.2rem;
+    }
+    .halfPart .input-field {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 0.8rem;
+        width: 8rem;
+    }
+    .inputSection02 {
+        font-size: 1.2rem;
+    }
+    .btn {
+        font-size: 1.2rem;
+    }
+    .privacy {
+        margin-left: 6.5rem;
+        font-size: 1.2rem;
+    }
+    .arrow {
+        margin-left: -0.3rem;
+        font-size: 1.4rem;
+        margin-top: 8rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .menu-wrap {
+        margin-left: 8rem;
+    }
+    .part02 {
+        position: relative;
+        margin-left: -34.5rem;
+        margin-top: 18rem;
+        width: 35rem;
+        height: 50rem;
+        padding-bottom: -8rem;
+        margin-bottom: 8rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .menu-wrap {
+        margin-left: 10rem;
+    }
+    .ratingSection {
+        font-size: 1.2rem;
+        display: flex;
+        padding: 0.6rem;
+        margin-left: 8px;
+        background-color: #ffffff;
+        border-radius: 5px;
+    }
+    .smallIcon img {
+        margin-left: 0.2rem;
+        margin-top: 0.6rem;
+        height: 5rem;
+        width: 5rem;
+    }
+    .part01 {
+        margin-top: -2rem;
+        margin-left: -3.5rem;
+        margin-right: 2rem;
+        padding-right: 2.5rem;
+    }
+    .part02 {
+        position: relative;
+        margin-left: -34.5rem;
+        margin-top: 18rem;
+        width: 28rem;
+        height: 50rem;
+        padding-bottom: -8rem;
+        margin-bottom: 8rem;
+    }
+    .arrow {
+        margin-left: -0.3rem;
+        font-size: 1.4rem;
+        margin-top: 4rem;
+    }
+    .privacy {
+        margin-left: 5rem;
+        font-size: 1.2rem;
+    }
+    .inputSection02 {
+        font-size: 1rem;
+    }
+    .halfPart .input-field {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 0.8rem;
+        width: 6rem;
+    }
+    .inputSection .input1 {
+        justify-content: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 0.8rem;
+        width: 10rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .inputSection .input2 {
+        justify-content: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 0.8rem;
+        margin-left: 2rem;
+        width: 8rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+}
